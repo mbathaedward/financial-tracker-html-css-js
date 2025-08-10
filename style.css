@@ -1,0 +1,92 @@
+*{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: #bdb3b3;
+    padding: 20px;
+}
+.container{
+    margin:  0 auto;
+    border-radius: 10px;
+    max-width: 420px;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid black;
+
+}
+.h2, h3{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.balance{
+    text-align: center;
+    margin: 12px 0;
+}
+.summary{
+    display: flex;
+    margin-bottom: 12px;
+    gap: 8px;
+    justify-content: space-between;
+    font-weight: 800;
+}
+.summary div{
+    text-align: center;
+    border: 1px solid #000;
+    width: 48%;
+    padding: 10px;
+    border-radius: 10px;
+}
+.money .plus{
+    color: greenyellow;
+    
+}
+.money .minus{
+    color: red;
+}
+.list{
+    margin-bottom: 18px;
+    list-style: none;
+
+}
+.list li{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 10px;
+    background: #f0f0f0;
+    margin: 6px 0;
+    border-right: 5px;
+    border-radius: 4px;
+
+}
+.list li.plus{
+    border-color: greenyellow;
+
+}
+.list li.minus{
+    border-color: red;
+
+}
+.form-control{
+    margin-bottom: 10px;
+}
+input{
+    width: 100%;
+    margin-top: 10px;
+    padding: 8px;
+}
+.btn {
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+    background-color: green;
+    color: #fff;
+    font-weight: 800;
+    border-radius: 10px;
+}
+.btn:hover{
+   opacity: 0.95;
+}
